@@ -72,6 +72,9 @@ The following is an example of the request to get the basic details from a [call
 ```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/communications/callRecords/{id}
 ```
+You can find the id in:
+https://admin.teams.microsoft.com/>users>meetings&calls
+
 # [C#](#tab/csharp)
 [!INCLUDE [sample-code](../includes/snippets/csharp/get-callrecord-csharp-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
